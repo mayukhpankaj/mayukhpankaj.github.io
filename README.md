@@ -21,6 +21,13 @@ Portfolio website developed for LEAD 2021 organised by IEEE BIT Mesra.
                f. ionicons
                   ( SVG icons used instead of pngs )
                g. GIF used for projects 
+
+ ## Tech Stack ##
+ 
+ * HTML 5
+ * CSS 
+ * Javascript
+ * Bootstrap 4 
                
        
  
