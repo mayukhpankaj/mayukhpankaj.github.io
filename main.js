@@ -44,7 +44,7 @@
                   const response = await fetch(url1);
                   const data = await response.json();
                   if(data.status === "OK" ){
-                      document.getElementById('rating').innerHTML = "Current rating : " + data.result[0].rating + "<br /> Current rank : " + data.result[0].rank;
+                      document.getElementById('rating').innerHTML = "current rating : " + data.result[0].rating + "<br /> current rank  : " + data.result[0].rank;
                   }
               }
               async function getSubmission(){
@@ -58,7 +58,7 @@
                               c = c+1;
                           }
                       }
-                          document.getElementById('submissions').innerHTML =  "Number of questions solved : "+c+"<br />Total number of submissions : "+data.result.length;
+                          document.getElementById('submissions').innerHTML =  "Problems solved  : "+c+"<br />Total submissions : "+data.result.length;
                   }
               }
               getRating();
