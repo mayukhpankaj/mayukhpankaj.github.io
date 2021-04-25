@@ -50,7 +50,7 @@ I prefer aesthetic design, so I have solid colors, smooth animations.
 
 ## Preview ##
 
-![image](https://i.imgur.com/qYBQIPo.png) 
+![image](https://github.com/mayukhpankaj/mayukhpankaj.github.io/blob/main/images/bitm.png?raw=true) 
 
 ![image](https://i.imgur.com/wyMeJZ8.png)
 
