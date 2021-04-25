@@ -12,7 +12,7 @@ Portfolio website developed for LEAD 2021 organised by IEEE BIT Mesra.
     4. CODEFORCES API integration
     5. OPTIONAL MILESTONES ✔️ -
   
-               a. dark/light mode toggle
+               a. dark/light mode toggle 🌙
                b. keyframes animations 
                  (transform, translate , opacity etc.)
                c. bootstrap 4
@@ -36,7 +36,7 @@ I like to use bootstrap for developing websites because targeting breakpoints is
 add class "col-sm-12" instead of making media queries. bootstrap cards used for showcasing projects.
 add animations & override with !important in separate stylesheet for final result. 
 
-**UNIQUE**
+**UNIQUE 🌈**
 
 I wanted to implement dark/light mode feature since I first used it. 
 It's simply overriding body class properties like body-background, color on event of a button click.
