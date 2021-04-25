@@ -1,16 +1,16 @@
-# Portfolio Website
+# Portfolio Website 🌎
 
 [www.mayukhpankaj.github.io](https://mayukhpankaj.github.io/)
 
 Portfolio website developed for LEAD 2021 organised by IEEE BIT Mesra.
 
-**MILESTONES ACHIEVED** - 
+**MILESTONES ACHIEVED**✔️- 
   
     1. ABOUT PAGE
     2. SKILLS PAGE
     3. PROJECTS PAGE
     4. CODEFORCES API integration
-    5. OPTIONAL MILESTONES -
+    5. OPTIONAL MILESTONES ✔️ -
   
                a. dark/light mode toggle
                b. keyframes animations 
@@ -25,7 +25,7 @@ Portfolio website developed for LEAD 2021 organised by IEEE BIT Mesra.
                h. Open Graph Meta data used for SEO optimization
                i. Github pages for hosting
 
- ## Tech Stack ##
+ ## Tech Stack 💻 ##
  
  * HTML 5
  * CSS 
@@ -41,18 +41,20 @@ add animations & override with !important in separate stylesheet for final resul
 I wanted to implement dark/light mode feature since I first used it. 
 It's simply overriding body class properties like body-background, color on event of a button click.
 
-I prefer aesthetic design, so I have solid colors, smooth animations.
+I prefer aesthetic design, so I have solid colors, icons & smooth animations.
 
-**IMPROVEMENT NEEDED**
+**IMPROVEMENT NEEDED 🔍**
 
 * localstorage for saving user dark/light choice.
 * optimise GIF 
 
-## Preview ##
+## Preview 📱 ##
 
-![image](https://github.com/mayukhpankaj/mayukhpankaj.github.io/blob/main/images/bitm.png?raw=true) 
+![preview-image](https://i.imgur.com/jqTflPl.png) 
 
-![image](https://i.imgur.com/wyMeJZ8.png)
+![preview-image](https://i.imgur.com/wyMeJZ8.png)
+
+Thank you IEEE for organising this event ❤️
 
 
 
