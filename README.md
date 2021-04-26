@@ -36,17 +36,18 @@ I like to use bootstrap for developing websites because targeting breakpoints is
 add class "col-sm-12" instead of making media queries. bootstrap cards used for showcasing projects.
 add animations & override with !important in separate stylesheet for final result. 
 
-**UNIQUE 🌈**
+**UNIQUE 🚀**
 
-I wanted to implement dark/light mode feature since I first used it. 
+I wanted to implement dark/light mode 🌙 feature since I first used it. 
 It's simply overriding body class properties like body-background, color on event of a button click.
 
-I prefer aesthetic design, so I have solid colors, icons & smooth animations.
+I prefer aesthetic design, so I used have solid colors, icons & smooth animations. Added favicon Ⓜ
 
-**IMPROVEMENT NEEDED 🔍**
+**IMPROVEMENT 🔍**
 
 * localstorage for saving user dark/light choice.
 * optimise GIF 
+* working on Jekyll blog
 
 ## Preview 📱 ##
 
@@ -54,15 +55,5 @@ I prefer aesthetic design, so I have solid colors, icons & smooth animations.
 
 ![preview-image](https://i.imgur.com/wyMeJZ8.png)
 
-Thank you IEEE for organising this event ❤️
-
-
-
-
-
-               
-       
- 
-
-
+Thank you IEEE BITM for organising this event ❤️
 
