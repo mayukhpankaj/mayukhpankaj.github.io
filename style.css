@@ -76,7 +76,7 @@ animation: drop 1s ease forwards;
     top: 0;
     left: 0;
     background-color: #111;
-    opacity: 70%;
+    opacity: 85%;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -112,6 +112,61 @@ animation: drop 1s ease forwards;
 
 
 
+  .bg-text {
+    position: absolute;
+    margin-bottom: -1em;
+    top: -80px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    font-weight: 700 !important;
+    color: rgba(0, 0, 0, 0.08);
+    text-transform: uppercase;
+  }
+  @media (min-width: 992px) {
+    .bg-text {
+      font-size: 6em;
+    }
+  }
+  @media (max-width: 991.98px) {
+    .bg-text {
+      display: none;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .bg-text {
+      display: none;
+    }
+  }
+  @media (min-width: 768px) {
+    .bg-text {
+      position: relative;
+    }
+  }
+
+  .wrap .about-desc .bold-text {
+    position: absolute;
+    top: -80px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    font-weight: 700 !important;
+    color: rgba(0, 0, 0, 0.08);
+    text-transform: uppercase;
+  }
+  @media (min-width: 992px) {
+    .wrap .about-desc .bold-text {
+      font-size: 6em;
+    }
+  }
+  @media (max-width: 991px) {
+    .wrap .about-desc .bold-text {
+      display: none;
+    }
+  }
+
+
+
 
  
 
@@ -135,7 +190,7 @@ animation: drop 1s ease forwards;
   }
   
   .slider {
-    background-color: #ccc;
+    background-color: #ddd;
     bottom: 0;
     cursor: pointer;
     left: 0;
@@ -229,6 +284,53 @@ p {
 }
 
 
+@media (min-width: 768px) {
+  .blog-entry {
+    margin-bottom: 30px; } }
+
+@media (max-width: 767.98px) {
+  .blog-entry {
+    margin-bottom: 30px; } }
+
+.blog-entry .text {
+  position: relative;
+  border-top: 0;
+  border-radius: 2px; }
+  .blog-entry .text .heading {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 500; }
+    .blog-entry .text .heading a {
+      color: #8a8484;
+       }
+      .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
+        color: #2f89fc; }
+
+.blog-entry .meta > div {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 15px; }
+  .blog-entry .meta > div a {
+    font-size: 15px;
+    color: #8c8c8c; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* CSS used here will be applied after bootstrap.css */
 
 .card-columns {
@@ -249,23 +351,43 @@ Small devices (landscape phones, 34em and up ( 544px ))
     
 }
 
-ion-icon {
-    font-size: 64px;
-  }
 
-  .footer {
-    bottom: 0%;
-    width: 100%;
-    height: 30px;
-    background-color: #5c5757;
-    color: #ecece2;
-    text-align: center;
- }
+
+
+ footer {
+	width: 100%;
+	height: 100%;
+    background-color: var(--main-header-background);
+}
+￼
+.copyright {
+	color: #fff;
+	font-size: 1.2rem;
+	line-height: 40px;
+	text-align: center;
+}
+￼
+.copyright a{
+	color: #fff;
+	font-size: 1rem;
+	letter-spacing: 1px;
+    text-decoration: none;
+}
+￼
+.copyright a:hover{
+	color: var(--main-decor-color);
+}
+
+
+
+
+
+ 
 
  .card {
 
-  background-color: #ccc  !important;
-  color: black !important;
+  background-color: #ccc  ;
+  color: black ;
 
  }
 
@@ -274,10 +396,167 @@ ion-icon {
  /* dark theme */
 
 .dark-mode {
-    background-color: #161625 !important;
-    color: #e1e1ff !important;
+    /* background-color: #161625 !important;
+    color: #e1e1ff !important; */
+
+    background-color: #18191a;
+    color: rgb(171, 165, 156);
 
 
   }
 
+
+/* PROJECTS */
+
+#title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.icon {
+  font-size: 0.9rem;
+  display: inline-flex;
+  background: #D8D8D8;
+  border-radius: 3px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+.icon span {
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.react {
+  background: #BAD5F5;
+}
+
+.react-native {
+  background: #BAD5F5;
+}
+.react span::after {
+  content: "React.js";
+}
+
+.firebase {
+  background: #F2C986;
+}
+
+.express {
+  background: #F2C986;
+}
+.express span::after {
+  content: "Express";
+}
+
+.node {
+  background: #E1C1C1;
+}
+.node span::after {
+  content: "Node.js";
+}
+
+.python {
+  background: #EADD86;
+}
+.python span::after {
+  content: "Python";
+}
+
+
+.django {
+  background: #AFEAE5;
+}
+.django span::after {
+  content: "Django";
+}
+
+.card a {
+  padding-right: 15px;
+}
+
+.github {
+  color: #739150;
+}
+
+.status {
+  color: #7699C2;
+}
+
+.flask {
+
+  background: #b6f3b9;
+}
+
+.twilio {
+
+  background: rgb(246, 173, 173);
+}
+
+
+.cropped1 {
+  width: 200px; /* width of container */
+  height: 500px; /* height of container */
+  object-fit: cover;
+  object-position: 20% 25%;
+  border: 5px solid #ecece2;
+}
+
+.cropped2 {
+  width: 200px; /* width of container */
+  height: 500px; /* height of container */
+  object-fit: cover;
+  object-position: 5% 100%;
+  border: 5px solid #eee;
+}
+
+.blog-crop {
+  width: 300px; /* width of container */
+  height: 200px; /* height of container */
+  object-fit: cover;
+  object-position: 5% 10%;
+  border: 5px;
+}
+
+.orange {
+  background: rgb(233, 182, 87);
+}
+
+
+
+
+:root{
+	--main-background: #0b0c0f;
+	--main-decor-color:#00a9e2;
+    --main-header-background:#21252e;
+	--main-font-family: 'Poppins', sans-serif;
+}
+
+/*──────────────────
+    social media
+──────────────────*/
+
+.social-media{
+	padding: 10px;
+	display: flex;
+	position: center;
+    align-items: space-around;
+	justify-content:center;
+}
+
+.social-media a {
+    margin: 10px;
+    font-size: 2rem;
+    text-align:center;
+    display: inline-block;
+	color: var(--main-fonts-color);
+}
+
+.social-media a i{
+	cursor: pointer;
+}
+
+.social-media  a:hover {
+	color: var(--main-decor-color);
+	text-shadow: 0 0 50px var(--main-decor-color);
+}
 

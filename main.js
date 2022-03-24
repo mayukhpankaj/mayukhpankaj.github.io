@@ -11,34 +11,40 @@
               
               
               
-                  /* dark theme */
+
+              var pressed = false;
+                  
+              /* dark theme */
               
-                  function darkToggle() {
-                 
-              
-              
+             function darkToggle() {
+
                  var element = document.body;
                  element.classList.toggle("dark-mode");
+                     
+                 var pic = document.getElementById('dp');
+
+                    pressed = !pressed;
+
                  
-                  
+                    if(pressed){
+
+                        pic.src = './images/anon.jfif';
+                    }
+                    else{
+
+                        pic.src = './images/mayukh.jfif'
+                    }
+      
+                      //  document.getElementById('dp').src = './images/anon.jfif';
+       
+                }
               
-                      document.getElementById('dp').src = './images/anon.jfif';
               
-               
-                  
-              
-              
-                   }
-              
-              
-              
-              
-              
-              
+  
               
                           /*codeforces api */
-                      const url1 = 'https://codeforces.com/api/user.info?handles=tourist';
-                      const url2 = 'https://codeforces.com/api/user.status?handle=tourist&from=1&count=1000'
+                      const url1 = 'https://codeforces.com/api/user.info?handles=momosoup';
+                      const url2 = 'https://codeforces.com/api/user.status?handle=momosoup&from=1&count=1000';
               
                       async function getRating(){
                   const response = await fetch(url1);
@@ -61,6 +67,7 @@
                           document.getElementById('submissions').innerHTML =  "Problems solved  : "+c+"<br />Total submissions : "+data.result.length;
                   }
               }
+              
               getRating();
               getSubmission();
               /** End of Codeforces API  */
